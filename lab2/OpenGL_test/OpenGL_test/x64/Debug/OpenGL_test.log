@@ -1,1 +1,7 @@
-﻿  OpenGL_test.vcxproj -> C:\Users\YaeSAKURA\source\repos\OpenGL_test\x64\Debug\OpenGL_test.exe
+﻿  Octahedron .cpp
+  main.cpp
+C:\Users\YaeSAKURA\Downloads\计算机图形学\lab2\OpenGL_test\OpenGL_test\main.cpp(85,26): warning C4305: “参数”: 从“double”到“float”截断
+C:\Users\YaeSAKURA\Downloads\计算机图形学\lab2\OpenGL_test\OpenGL_test\main.cpp(87,17): warning C4305: “参数”: 从“double”到“GLfloat”截断
+C:\Users\YaeSAKURA\Downloads\计算机图形学\lab2\OpenGL_test\OpenGL_test\main.cpp(87,12): warning C4305: “参数”: 从“double”到“GLfloat”截断
+  正在生成代码...
+  OpenGL_test.vcxproj -> C:\Users\YaeSAKURA\Downloads\计算机图形学\lab2\OpenGL_test\x64\Debug\OpenGL_test.exe

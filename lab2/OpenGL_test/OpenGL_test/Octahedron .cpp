@@ -47,6 +47,7 @@ int Octahedron::setTexture(GLuint texture)
 void Octahedron::showFaceWithSingleTex()
 {
 	this->getver();
+	glColor3f(1, 1, 1);//glut中的颜色设置类似于AE中的时间轴，如果不指定会沿用上一个（如果有）或者定为下一个（此前未定义）
 	GLint* currentTexture = new(GLint);
 	glGetIntegerv(GL_TEXTURE_BINDING_2D, currentTexture);
 	if (this->Texture != NULL)
@@ -77,6 +78,7 @@ void Octahedron::showFaceWithSingleTex()
 void Octahedron::showFaceWithDuoTex()
 {
 	this->getver();
+	glColor3f(1, 1, 1);
 	GLint* currentTexture=new(GLint);
 	glGetIntegerv(GL_TEXTURE_BINDING_2D, currentTexture);
 	if (this->Texture != NULL)

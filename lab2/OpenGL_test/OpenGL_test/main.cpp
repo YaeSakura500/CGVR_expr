@@ -30,15 +30,16 @@ int main(int argc, char** argv)
 	//初始化，建立窗口
 	glutInit(&argc, argv);
 	//深度缓冲，双缓冲，颜色缓冲
-	glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGBA);
+	glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGB);
 	glEnable(GL_TEXTURE_2D);
 	glutInitWindowPosition(100, 100);
 	glutInitWindowSize(640, 360);
 	glutCreateWindow("test");
 	init();
-	texture.push_back(MYIO::loadTextureFromBmp("test1.bmp"));
-	texture.push_back(MYIO::loadTexture("test.png"));
-	//myOct.setTexture(texture[cristal]);
+	//texture.push_back(MYIO::loadTextureFromBmp("test1.bmp"));
+	texture.push_back(MYIO::loadTexture("diamond.jpg"));
+	myOct.setTexture(texture[cristal]);
+	myOct.setTexture(texture[cristal]);
 	//myOct.setTexture(texture[sky]);
 	glEnable(GL_DEPTH_TEST);        //开启深度缓冲区
 	glutKeyboardFunc(Control::inputNormalKey);     //键盘响应事件
@@ -80,8 +81,8 @@ void renderScene(void)
 {
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); //清空颜色和深度缓冲
 	glClearColor(1, 1, 1, 0);
-	myOct.showFaceWithDuoTex();
-	myOct.showEdge(0, 0, 0, 0.3);
+	myOct.showFaceWithSingleTex();
+	myOct.showEdge(0, 0, 0, 0.1);
 	glBegin(GL_POLYGON);
 	glColor3f(0.3, 0.3, 0.5);
 	glVertex3f(1000, -10, 1000);
