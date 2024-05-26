@@ -1,0 +1,15 @@
+﻿  main.cpp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\YaeSAKURA\source\repos\OpenGL_test\OpenGL_test\main.cpp(146): warning C4715: “BrLine”: 不是所有的控件路径都返回值
+  All 7 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+glut32.lib(glut32.dll) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+C:\Users\YaeSAKURA\source\repos\OpenGL_test\Release\OpenGL_test.exe : fatal error LNK1281: 无法生成 SAFESEH 映像。

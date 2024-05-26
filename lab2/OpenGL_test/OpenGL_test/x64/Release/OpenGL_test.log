@@ -1,0 +1,14 @@
+﻿  main.cpp
+C:\Users\YaeSAKURA\source\repos\OpenGL_test\OpenGL_test\main.cpp(78,10): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\OpenGL_test\OpenGL_test\main.cpp(79,7): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\OpenGL_test\OpenGL_test\main.cpp(89,8): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\OpenGL_test\OpenGL_test\main.cpp(90,8): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\OpenGL_test\OpenGL_test\main.cpp(99,8): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\OpenGL_test\OpenGL_test\main.cpp(100,8): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\OpenGL_test\OpenGL_test\main.cpp(107,8): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码
+  2 of 168 functions ( 1.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    8 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  OpenGL_test.vcxproj -> C:\Users\YaeSAKURA\source\repos\OpenGL_test\x64\Release\OpenGL_test.exe

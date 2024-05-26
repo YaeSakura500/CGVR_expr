@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\YaeSAKURA\source\repos\OpenGL_test\OpenGL_test\main.cpp(146): warning C4715: “BrLine”: 不是所有的控件路径都返回值
+  OpenGL_test.vcxproj -> C:\Users\YaeSAKURA\source\repos\OpenGL_test\Debug\OpenGL_test.exe
