@@ -6,7 +6,7 @@ Expr1:Enironment Building(DONE)
 
 Expr2:Octahedron With Texturas(DONE)
 
-//glad and glfw is toooooooooo complex :(
+//glad and glfw is toooooooooo complex :( 
 //Here we use glut ONLY and got the same result(maybe)
 
 Expr3:Phong`s Lighting(TBC)
