@@ -120,10 +120,11 @@ void Camera::move_Front_Back(int direction)
 {
 	this->pos.x = this->pos.x + direction * (this->view.lx) * 0.1;
 	this->pos.z = this->pos.z + direction * (this->view.lz) * 0.1;
+	this->pos.y = this->pos.y + direction * (this->view.ly) * 0.1;
 	glLoadIdentity();
 	gluLookAt(this->pos.x, this->pos.y, this->pos.z, this->pos.x + this->view.lx, this->pos.y + this->view.ly, this->pos.z + this->view.lz, 0.0f, 1.0f, 0.0f);
 	
-	//同时移动相机和所看的点坐标，只用修改x和z，视线参数不用修改，
+	//同时移动相机和所看的点坐标,视线参数不用修改，
 }
 
 //左右移动相机
