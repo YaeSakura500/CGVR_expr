@@ -7,10 +7,10 @@
 
 #define SPEED 1e-2
 
-GLfloat light_position[] = { 1.0, 0.5, 0.0, 0.0 };
-GLfloat white_light[] = { 1.0, 1.0, 1.0, 1.0 };   //灯位置(1,1,1), 最后1-开关
+GLfloat light_position[] = { 2.0, 0.0, 0.0, 0.0 };   //灯位置(1,1,1), 最后1-开关
+GLfloat white_light[] = { 1.0, 1.0, 1.0, 1.0 };
 GLfloat Light_Model_Ambient[] = { 0.4, 0.4, 0.4, 1.0 }; //环境光参数
-float angel = 0,rot =1.57;
+float angel = 1.57,rot =0;
 //自定义初始化opengl函数
 void init(void)
 {
@@ -73,10 +73,10 @@ void keyinput(int key, int x, int y)
     switch (key)
     {
     case GLUT_KEY_LEFT:
-        angel += SPEED;
+        angel -= SPEED;
         break;
     case GLUT_KEY_RIGHT:
-        angel -= SPEED;
+        angel += SPEED;
         break;
     case GLUT_KEY_UP:
         rot += SPEED;
@@ -88,9 +88,9 @@ void keyinput(int key, int x, int y)
         break;
     }
 
-    light_position[0] = 2*cos(angel) * sin(rot);
-    light_position[2] = 2*cos(angel) * cos(rot);
-    light_position[1] = 2*sin(angel);
+    light_position[0] = 2*cos(rot) * sin(angel);
+    light_position[2] = 2*cos(rot) * cos(angel);
+    light_position[1] = 2*sin(rot);
 
     //灯光设置
     glLightfv(GL_LIGHT0, GL_POSITION, light_position);
