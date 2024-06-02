@@ -1,0 +1,10 @@
+﻿  mian.cpp
+C:\Users\YaeSAKURA\source\repos\lighting\lighting\mian.cpp(12,35): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+C:\Users\YaeSAKURA\source\repos\lighting\lighting\mian.cpp(12,40): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+C:\Users\YaeSAKURA\source\repos\lighting\lighting\mian.cpp(12,45): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+C:\Users\YaeSAKURA\source\repos\lighting\lighting\mian.cpp(13,21): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\YaeSAKURA\source\repos\lighting\lighting\mian.cpp(76,23): warning C4305: “+=”: 从“double”到“float”截断
+C:\Users\YaeSAKURA\source\repos\lighting\lighting\mian.cpp(79,23): warning C4305: “-=”: 从“double”到“float”截断
+C:\Users\YaeSAKURA\source\repos\lighting\lighting\mian.cpp(82,21): warning C4305: “+=”: 从“double”到“float”截断
+C:\Users\YaeSAKURA\source\repos\lighting\lighting\mian.cpp(85,21): warning C4305: “-=”: 从“double”到“float”截断
+  lighting.vcxproj -> C:\Users\YaeSAKURA\source\repos\lighting\x64\Debug\lighting.exe
