@@ -7,16 +7,20 @@
 
 #define SPEED 1e-2
 
-GLfloat light_position[] = { 2.0, 0.0, 0.0, 0.0 };   //灯位置(1,1,1), 最后1-开关
+//材质属性设置
+GLfloat mat_specular[] = { 1.0, 1.0, 1.0, 1.0 };  //镜面反射参数
+GLfloat mat_shininess[] = { 400.0 };               //高光指数
+//光照属性设置
+GLfloat light_position[] = { 2.0, 0.0, 0.0, 1.0 };   //灯位置(1,1,1), 最后1-开关
 GLfloat white_light[] = { 1.0, 1.0, 1.0, 1.0 };
 GLfloat Light_Model_Ambient[] = { 0.4, 0.4, 0.4, 1.0 }; //环境光参数
 float angel = 1.57,rot =0;
+float env = 0.2;
+float on = 1;
 //自定义初始化opengl函数
 void init(void)
 {
-    //材质反光性设置
-    GLfloat mat_specular[] = { 1.0, 1.0, 1.0, 1.0 };  //镜面反射参数
-    GLfloat mat_shininess[] = { 50.0 };               //高光指数
+
 
 
     glClearColor(0.0, 0.0, 0.0, 0.0);  //背景色
@@ -36,7 +40,7 @@ void init(void)
 void display(void)
 {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-    glutSolidTeapot(0.5);
+    glutSolidTeapot(1);
     //灯光设置
     glLightfv(GL_LIGHT0, GL_POSITION, light_position);
     glLightfv(GL_LIGHT0, GL_DIFFUSE, white_light);   //散射光属性
@@ -47,7 +51,7 @@ void display(void)
     //light_position[0] = cos(angel);
     //light_position[2] = sin(angel);
 
-    glFlush();   //glSwapBuffers();
+    glutSwapBuffers();
 }
 
 void reshape(int w, int h)
@@ -66,6 +70,27 @@ void reshape(int w, int h)
     //设置模型参数--几何体参数
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
+}
+
+void normalinput(unsigned char key, int x, int y)
+{
+    switch (key)
+    {
+    case '1':
+        env += 0.01;
+        break;
+    case '2':
+        env -= 0.01;
+        break;
+    default:
+        break;
+    }
+    env = env < 0 ? 0: env;
+    env = env > 1 ? 1 : env;
+    //std::cout << env << std::endl;
+    Light_Model_Ambient[0] = env;
+    Light_Model_Ambient[1] = env;
+    Light_Model_Ambient[2] = env;
 }
 
 void keyinput(int key, int x, int y)
@@ -98,21 +123,22 @@ void keyinput(int key, int x, int y)
     glLightfv(GL_LIGHT0, GL_SPECULAR, white_light);  //镜面反射光
     glLightModelfv(GL_LIGHT_MODEL_AMBIENT, Light_Model_Ambient);  //环境光参数
     glutPostRedisplay();
-    std::cout << "angle" << angel << "rot" << rot << std::endl;
+    //std::cout << "angle" << angel << "rot" << rot << std::endl;
 }
 
 int main(int argc, char** argv)
 {
     glutInit(&argc, argv);
-    glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB | GLUT_DEPTH);
+    glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
     glutInitWindowSize(500, 500);
     glutInitWindowPosition(100, 100);
-    glutCreateWindow("茶壶");
+    glutCreateWindow("lighting");
 
     init();
 
     glutDisplayFunc(display);
     glutSpecialFunc(keyinput);
+    glutKeyboardFunc(normalinput);
     glutReshapeFunc(reshape);
     glutIdleFunc(display);
     glutMainLoop();

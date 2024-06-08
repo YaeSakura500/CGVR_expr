@@ -1,10 +1,1 @@
-﻿  mian.cpp
-C:\Users\YaeSAKURA\Downloads\计算机图形学\lab3\lighting\lighting\mian.cpp(12,35): warning C4305: “初始化”: 从“double”到“GLfloat”截断
-C:\Users\YaeSAKURA\Downloads\计算机图形学\lab3\lighting\lighting\mian.cpp(12,40): warning C4305: “初始化”: 从“double”到“GLfloat”截断
-C:\Users\YaeSAKURA\Downloads\计算机图形学\lab3\lighting\lighting\mian.cpp(12,45): warning C4305: “初始化”: 从“double”到“GLfloat”截断
-C:\Users\YaeSAKURA\Downloads\计算机图形学\lab3\lighting\lighting\mian.cpp(13,13): warning C4305: “初始化”: 从“double”到“float”截断
-C:\Users\YaeSAKURA\Downloads\计算机图形学\lab3\lighting\lighting\mian.cpp(76,23): warning C4305: “-=”: 从“double”到“float”截断
-C:\Users\YaeSAKURA\Downloads\计算机图形学\lab3\lighting\lighting\mian.cpp(79,23): warning C4305: “+=”: 从“double”到“float”截断
-C:\Users\YaeSAKURA\Downloads\计算机图形学\lab3\lighting\lighting\mian.cpp(82,21): warning C4305: “+=”: 从“double”到“float”截断
-C:\Users\YaeSAKURA\Downloads\计算机图形学\lab3\lighting\lighting\mian.cpp(85,21): warning C4305: “-=”: 从“double”到“float”截断
-  lighting.vcxproj -> C:\Users\YaeSAKURA\Downloads\计算机图形学\lab3\lighting\x64\Debug\lighting.exe
+﻿  lighting.vcxproj -> C:\Users\YaeSAKURA\Downloads\计算机图形学\lab3\lighting\x64\Debug\lighting.exe
