@@ -14,4 +14,6 @@ Expr3:Phong`s Lighting(DONE)
 
 Use Glut ONLY and got the expected result,though we draw a teapot instead of a cube.
 ******************
-Expr4:Circle Drawing(TBC)
+Expr4:Circle Drawing(DONE)
+
+Glut ONLY still.It seems that we should draw a circle only,REALLY?
