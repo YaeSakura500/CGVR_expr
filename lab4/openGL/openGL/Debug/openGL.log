@@ -1,0 +1,15 @@
+﻿  main.cpp
+C:\Users\YaeSAKURA\source\repos\openGL\openGL\main.cpp(117,18): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\openGL\openGL\main.cpp(117,15): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\openGL\openGL\main.cpp(142,18): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\openGL\openGL\main.cpp(142,15): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\openGL\openGL\main.cpp(152,23): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\openGL\openGL\main.cpp(152,15): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\openGL\openGL\main.cpp(153,24): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\openGL\openGL\main.cpp(153,16): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\openGL\openGL\main.cpp(154,24): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\openGL\openGL\main.cpp(154,15): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\openGL\openGL\main.cpp(155,25): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\openGL\openGL\main.cpp(155,16): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\openGL\openGL\main.cpp(146): warning C4715: “BrLine”: 不是所有的控件路径都返回值
+  openGL.vcxproj -> C:\Users\YaeSAKURA\source\repos\openGL\Debug\openGL.exe

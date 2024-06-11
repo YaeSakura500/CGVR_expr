@@ -1,0 +1,23 @@
+﻿  main.cpp
+C:\Users\YaeSAKURA\Downloads\计算机图形学\lab4\openGL\openGL\main.cpp(82,23): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\lab4\openGL\openGL\main.cpp(82,15): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\lab4\openGL\openGL\main.cpp(83,24): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\lab4\openGL\openGL\main.cpp(83,16): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\lab4\openGL\openGL\main.cpp(84,24): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\lab4\openGL\openGL\main.cpp(84,15): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\lab4\openGL\openGL\main.cpp(85,25): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\lab4\openGL\openGL\main.cpp(85,16): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\lab4\openGL\openGL\main.cpp(86,23): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\lab4\openGL\openGL\main.cpp(86,15): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\lab4\openGL\openGL\main.cpp(87,24): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\lab4\openGL\openGL\main.cpp(87,16): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\lab4\openGL\openGL\main.cpp(88,24): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\lab4\openGL\openGL\main.cpp(88,15): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\lab4\openGL\openGL\main.cpp(89,25): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\lab4\openGL\openGL\main.cpp(89,16): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  正在生成代码
+  1 of 17 functions ( 5.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  openGL.vcxproj -> C:\Users\YaeSAKURA\Downloads\计算机图形学\lab4\openGL\x64\Release\openGL.exe
