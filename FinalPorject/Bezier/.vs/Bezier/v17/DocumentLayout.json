@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Bezier\\Bezier.cpp",
               "ToolTip": "C:\\Users\\YaeSAKURA\\Downloads\\\u8BA1\u7B97\u673A\u56FE\u5F62\u5B66\\FinalPorject\\Bezier\\Bezier\\Bezier.cpp",
               "RelativeToolTip": "Bezier\\Bezier.cpp",
-              "ViewState": "AQIAACQAAAAAAAAAAAAQwDIAAAAtAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAQwEgAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-15T10:53:16.335Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "Bezier\\Bezier.h",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAAkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-15T06:36:10.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T06:36:10.428Z"
             },
             {
               "$type": "Document",
@@ -81,8 +80,7 @@
               "RelativeToolTip": "Bezier\\YangTri.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-15T06:52:30.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T06:52:30.755Z"
             }
           ]
         }

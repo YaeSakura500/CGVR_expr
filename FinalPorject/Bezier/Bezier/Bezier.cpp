@@ -68,10 +68,10 @@ void Bezier::DrawCurve(double R, double G, double B, int Resoluton)
 			double lambda = times * (i / (double)Resoluton); // 泊松分布参数λ
 
 			for (int j = 0; j < times; j++) {
-				// 使用泊松分布的概率质量函数进行计算
+				// 使用泊松分布进行计算
 				double p_j = (exp(-lambda) * pow(lambda, j)) / tgamma(j + 1);
-				y_n += p_j * Tri.GetElem(times - 1, j) * Bpoints[j].y;
-				x_n += p_j * Tri.GetElem(times - 1, j) * Bpoints[j].x;
+				y_n += p_j  * Bpoints[j].y;
+				x_n += p_j  * Bpoints[j].x;
 			
 			}
 			glVertex2d(x_n, y_n);
