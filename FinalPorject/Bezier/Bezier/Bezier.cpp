@@ -33,14 +33,14 @@ void Bezier::DrawCurve(double R, double G, double B, int Resoluton)
 		glBegin(GL_POINT);
 		glVertex2f(Bpoints[0].x, Bpoints[0].y);
 	}
-	else
+	else if (times<=34)
 	{
 		glPointSize(0.5);
 		glBegin(GL_POINTS);
-		for (size_t i = 0; i < Resoluton; i++)
+		for (size_t i = 0; i < Resoluton; i++)//根据参数方程，逐点计算曲线
 		{
 			double y_n = 0, x_n = 0;
-			for (int j = 0; j < times; j++)
+			for (int j = 0; j < times; j++)//根据公式计算坐标
 			{
 				y_n += pow(i / (double)Resoluton, (double)j) * pow(1.0 - (i / (double)Resoluton), (double)(times - j - 1)) * Tri.GetElem(times - 1, j) * Bpoints[j].y;
 				x_n += pow(i / (double)Resoluton, (double)j) * pow(1.0 - (i / (double)Resoluton), (double)(times - j - 1)) * Tri.GetElem(times - 1, j) * Bpoints[j].x;
@@ -58,6 +58,26 @@ void Bezier::DrawCurve(double R, double G, double B, int Resoluton)
 			}
 		}
 	}
+	else
+	{
+		glPointSize(0.5);
+		glBegin(GL_POINTS);
+		for (size_t i = 0; i < Resoluton; i++)//根据参数方程，逐点计算曲线
+		{
+			double y_n = 0, x_n = 0;
+			double lambda = times * (i / (double)Resoluton); // 泊松分布参数λ
+
+			for (int j = 0; j < times; j++) {
+				// 使用泊松分布的概率质量函数进行计算
+				double p_j = (exp(-lambda) * pow(lambda, j)) / tgamma(j + 1);
+				y_n += p_j * Tri.GetElem(times - 1, j) * Bpoints[j].y;
+				x_n += p_j * Tri.GetElem(times - 1, j) * Bpoints[j].x;
+			
+			}
+			glVertex2d(x_n, y_n);
+		}
+		glEnd();
+	}
 }
 
 void Bezier::DrawCurveWithCtrl(double R, double G, double B, int Resoluton, double Ctrl_R, double Ctrl_G, double Ctrl_B)
@@ -71,19 +91,23 @@ void Bezier::DrawCtrl(double R, double G, double B)
 	if (Bpoints.size())
 	{
 		glColor3f(R, G, B);
-		glBegin(GL_LINE_STRIP);
-		for (size_t i = 0; i < Bpoints.size(); i++)
-		{
-			glVertex2f(Bpoints[i].x, Bpoints[i].y);
+		{//按顺序连接控制点
+			glBegin(GL_LINE_STRIP);
+			for (size_t i = 0; i < Bpoints.size(); i++)
+			{
+				glVertex2f(Bpoints[i].x, Bpoints[i].y);
+			}
+			glEnd();
 		}
-		glEnd();
-		glPointSize(5);
-		glBegin(GL_POINTS);
-		for (size_t i = 0; i < Bpoints.size(); i++)
-		{
-			glVertex2f(Bpoints[i].x, Bpoints[i].y);
+		{//突出显示控制点
+			glPointSize(5);
+			glBegin(GL_POINTS);
+			for (size_t i = 0; i < Bpoints.size(); i++)
+			{
+				glVertex2f(Bpoints[i].x, Bpoints[i].y);
+			}
+			glEnd();
 		}
-		glEnd();
 	}
 }
 

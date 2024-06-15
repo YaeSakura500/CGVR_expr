@@ -7,6 +7,7 @@
 #include <GL/glut.h>
 #endif
 #include<string>
+#include<math.h>
 
 struct point
 	{

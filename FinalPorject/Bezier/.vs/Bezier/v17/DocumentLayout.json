@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\YaeSAKURA\\source\\repos\\Bezier\\",
+  "WorkspaceRootPath": "C:\\Users\\YaeSAKURA\\Downloads\\\u8BA1\u7B97\u673A\u56FE\u5F62\u5B66\\FinalPorject\\Bezier\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BD29F44-5943-4EB5-AAEF-301750B7C40A}|Bezier\\Bezier.vcxproj|C:\\Users\\YaeSAKURA\\source\\repos\\Bezier\\Bezier\\Bezier.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{1BD29F44-5943-4EB5-AAEF-301750B7C40A}|Bezier\\Bezier.vcxproj|C:\\Users\\YaeSAKURA\\Downloads\\\u8BA1\u7B97\u673A\u56FE\u5F62\u5B66\\FinalPorject\\Bezier\\Bezier\\Bezier.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1BD29F44-5943-4EB5-AAEF-301750B7C40A}|Bezier\\Bezier.vcxproj|solutionrelative:Bezier\\Bezier.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BD29F44-5943-4EB5-AAEF-301750B7C40A}|Bezier\\Bezier.vcxproj|C:\\Users\\YaeSAKURA\\source\\repos\\Bezier\\Bezier\\YangTri.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1BD29F44-5943-4EB5-AAEF-301750B7C40A}|Bezier\\Bezier.vcxproj|solutionrelative:Bezier\\YangTri.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BD29F44-5943-4EB5-AAEF-301750B7C40A}|Bezier\\Bezier.vcxproj|C:\\Users\\YaeSAKURA\\source\\repos\\Bezier\\Bezier\\Bezier.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1BD29F44-5943-4EB5-AAEF-301750B7C40A}|Bezier\\Bezier.vcxproj|solutionrelative:Bezier\\Bezier.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BD29F44-5943-4EB5-AAEF-301750B7C40A}|Bezier\\Bezier.vcxproj|C:\\Users\\YaeSAKURA\\source\\repos\\Bezier\\Bezier\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{1BD29F44-5943-4EB5-AAEF-301750B7C40A}|Bezier\\Bezier.vcxproj|C:\\Users\\YaeSAKURA\\Downloads\\\u8BA1\u7B97\u673A\u56FE\u5F62\u5B66\\FinalPorject\\Bezier\\Bezier\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1BD29F44-5943-4EB5-AAEF-301750B7C40A}|Bezier\\Bezier.vcxproj|solutionrelative:Bezier\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BD29F44-5943-4EB5-AAEF-301750B7C40A}|Bezier\\Bezier.vcxproj|C:\\Users\\YaeSAKURA\\source\\repos\\Bezier\\Bezier\\YangTri.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1BD29F44-5943-4EB5-AAEF-301750B7C40A}|Bezier\\Bezier.vcxproj|solutionrelative:Bezier\\YangTri.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1BD29F44-5943-4EB5-AAEF-301750B7C40A}|Bezier\\Bezier.vcxproj|C:\\Users\\YaeSAKURA\\Downloads\\\u8BA1\u7B97\u673A\u56FE\u5F62\u5B66\\FinalPorject\\Bezier\\Bezier\\Bezier.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1BD29F44-5943-4EB5-AAEF-301750B7C40A}|Bezier\\Bezier.vcxproj|solutionrelative:Bezier\\Bezier.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD29F44-5943-4EB5-AAEF-301750B7C40A}|Bezier\\Bezier.vcxproj|C:\\Users\\YaeSAKURA\\Downloads\\\u8BA1\u7B97\u673A\u56FE\u5F62\u5B66\\FinalPorject\\Bezier\\Bezier\\YangTri.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1BD29F44-5943-4EB5-AAEF-301750B7C40A}|Bezier\\Bezier.vcxproj|solutionrelative:Bezier\\YangTri.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,13 +34,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bezier.cpp",
+              "DocumentMoniker": "C:\\Users\\YaeSAKURA\\Downloads\\\u8BA1\u7B97\u673A\u56FE\u5F62\u5B66\\FinalPorject\\Bezier\\Bezier\\Bezier.cpp",
+              "RelativeDocumentMoniker": "Bezier\\Bezier.cpp",
+              "ToolTip": "C:\\Users\\YaeSAKURA\\Downloads\\\u8BA1\u7B97\u673A\u56FE\u5F62\u5B66\\FinalPorject\\Bezier\\Bezier\\Bezier.cpp",
+              "RelativeToolTip": "Bezier\\Bezier.cpp",
+              "ViewState": "AQIAACQAAAAAAAAAAAAQwDIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-15T10:53:16.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Bezier.h",
-              "DocumentMoniker": "C:\\Users\\YaeSAKURA\\source\\repos\\Bezier\\Bezier\\Bezier.h",
+              "DocumentMoniker": "C:\\Users\\YaeSAKURA\\Downloads\\\u8BA1\u7B97\u673A\u56FE\u5F62\u5B66\\FinalPorject\\Bezier\\Bezier\\Bezier.h",
               "RelativeDocumentMoniker": "Bezier\\Bezier.h",
-              "ToolTip": "C:\\Users\\YaeSAKURA\\source\\repos\\Bezier\\Bezier\\Bezier.h",
+              "ToolTip": "C:\\Users\\YaeSAKURA\\Downloads\\\u8BA1\u7B97\u673A\u56FE\u5F62\u5B66\\FinalPorject\\Bezier\\Bezier\\Bezier.h",
               "RelativeToolTip": "Bezier\\Bezier.h",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAHAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-06-15T06:36:10.428Z",
               "EditorCaption": ""
@@ -52,59 +61,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "YangTri.h",
-              "DocumentMoniker": "C:\\Users\\YaeSAKURA\\source\\repos\\Bezier\\Bezier\\YangTri.h",
-              "RelativeDocumentMoniker": "Bezier\\YangTri.h",
-              "ToolTip": "C:\\Users\\YaeSAKURA\\source\\repos\\Bezier\\Bezier\\YangTri.h",
-              "RelativeToolTip": "Bezier\\YangTri.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-15T06:52:30.755Z",
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\YaeSAKURA\\Downloads\\\u8BA1\u7B97\u673A\u56FE\u5F62\u5B66\\FinalPorject\\Bezier\\Bezier\\main.cpp",
+              "RelativeDocumentMoniker": "Bezier\\main.cpp",
+              "ToolTip": "C:\\Users\\YaeSAKURA\\Downloads\\\u8BA1\u7B97\u673A\u56FE\u5F62\u5B66\\FinalPorject\\Bezier\\Bezier\\main.cpp",
+              "RelativeToolTip": "Bezier\\main.cpp",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAQwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-12T11:43:31.742Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\YaeSAKURA\\source\\repos\\Bezier\\Bezier\\main.cpp",
-              "RelativeDocumentMoniker": "Bezier\\main.cpp",
-              "ToolTip": "C:\\Users\\YaeSAKURA\\source\\repos\\Bezier\\Bezier\\main.cpp",
-              "RelativeToolTip": "Bezier\\main.cpp",
-              "ViewState": "AQIAAHcAAAAAAAAAAAAkwIYAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-12T11:43:31.742Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Bezier.cpp",
-              "DocumentMoniker": "C:\\Users\\YaeSAKURA\\source\\repos\\Bezier\\Bezier\\Bezier.cpp",
-              "RelativeDocumentMoniker": "Bezier\\Bezier.cpp",
-              "ToolTip": "C:\\Users\\YaeSAKURA\\source\\repos\\Bezier\\Bezier\\Bezier.cpp*",
-              "RelativeToolTip": "Bezier\\Bezier.cpp*",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACUAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-15T06:42:12.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "YangTri.cpp",
-              "DocumentMoniker": "C:\\Users\\YaeSAKURA\\source\\repos\\Bezier\\Bezier\\YangTri.cpp",
-              "RelativeDocumentMoniker": "Bezier\\YangTri.cpp",
-              "ToolTip": "C:\\Users\\YaeSAKURA\\source\\repos\\Bezier\\Bezier\\YangTri.cpp",
-              "RelativeToolTip": "Bezier\\YangTri.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-15T06:52:42.09Z",
+              "Title": "YangTri.h",
+              "DocumentMoniker": "C:\\Users\\YaeSAKURA\\Downloads\\\u8BA1\u7B97\u673A\u56FE\u5F62\u5B66\\FinalPorject\\Bezier\\Bezier\\YangTri.h",
+              "RelativeDocumentMoniker": "Bezier\\YangTri.h",
+              "ToolTip": "C:\\Users\\YaeSAKURA\\Downloads\\\u8BA1\u7B97\u673A\u56FE\u5F62\u5B66\\FinalPorject\\Bezier\\Bezier\\YangTri.h",
+              "RelativeToolTip": "Bezier\\YangTri.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-15T06:52:30.755Z",
               "EditorCaption": ""
             }
           ]

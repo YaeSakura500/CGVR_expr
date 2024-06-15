@@ -1,13 +1,15 @@
-﻿  main.cpp
-C:\Users\YaeSAKURA\source\repos\Bezier\Bezier\main.cpp(119,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-C:\Users\YaeSAKURA\source\repos\Bezier\Bezier\main.cpp(128,36): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
-C:\Users\YaeSAKURA\source\repos\Bezier\Bezier\main.cpp(128,23): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
-C:\Users\YaeSAKURA\source\repos\Bezier\Bezier\main.cpp(154,19): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
-C:\Users\YaeSAKURA\source\repos\Bezier\Bezier\main.cpp(154,16): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
-C:\Users\YaeSAKURA\source\repos\Bezier\Bezier\main.cpp(154,13): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
-C:\Users\YaeSAKURA\source\repos\Bezier\Bezier\main.cpp(158,37): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
-C:\Users\YaeSAKURA\source\repos\Bezier\Bezier\main.cpp(158,24): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
-C:\Users\YaeSAKURA\source\repos\Bezier\Bezier\main.cpp(165,37): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
-C:\Users\YaeSAKURA\source\repos\Bezier\Bezier\main.cpp(165,24): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
-C:\Users\YaeSAKURA\source\repos\Bezier\Bezier\main.cpp(173,8): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-  Bezier.vcxproj -> C:\Users\YaeSAKURA\source\repos\Bezier\x64\Debug\Bezier.exe
+﻿  Bezier.cpp
+C:\Users\YaeSAKURA\Downloads\计算机图形学\FinalPorject\Bezier\Bezier\Bezier.cpp(25,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\FinalPorject\Bezier\Bezier\Bezier.cpp(34,38): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\FinalPorject\Bezier\Bezier\Bezier.cpp(34,24): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\FinalPorject\Bezier\Bezier\Bezier.cpp(54,50): warning C4244: “参数”: 从“double”转换到“GLint”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\FinalPorject\Bezier\Bezier\Bezier.cpp(54,32): warning C4244: “参数”: 从“double”转换到“GLint”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\FinalPorject\Bezier\Bezier\Bezier.cpp(93,19): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\FinalPorject\Bezier\Bezier\Bezier.cpp(93,16): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\FinalPorject\Bezier\Bezier\Bezier.cpp(93,13): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\FinalPorject\Bezier\Bezier\Bezier.cpp(98,40): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\FinalPorject\Bezier\Bezier\Bezier.cpp(98,26): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\FinalPorject\Bezier\Bezier\Bezier.cpp(107,40): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\FinalPorject\Bezier\Bezier\Bezier.cpp(107,26): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+C:\Users\YaeSAKURA\Downloads\计算机图形学\FinalPorject\Bezier\Bezier\Bezier.cpp(116,21): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  Bezier.vcxproj -> C:\Users\YaeSAKURA\Downloads\计算机图形学\FinalPorject\Bezier\x64\Debug\Bezier.exe
