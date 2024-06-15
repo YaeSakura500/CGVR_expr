@@ -22,4 +22,4 @@ Final Project:intereactive Bezier Curve(DONE)
 
 Glut ONLY still.
 
-There exists a Bug that while Control Point is more than 34,the location calculate function would got wrong answer.WHY?
+There exists a Bug that after the num of Control Points is more than 34,the location calculate function would got wrong answer that approachs to negative infinity.WHY?
