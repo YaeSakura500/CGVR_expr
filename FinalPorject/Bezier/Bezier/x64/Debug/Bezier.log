@@ -1,0 +1,13 @@
+﻿  main.cpp
+C:\Users\YaeSAKURA\source\repos\Bezier\Bezier\main.cpp(119,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\Bezier\Bezier\main.cpp(128,36): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\Bezier\Bezier\main.cpp(128,23): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\Bezier\Bezier\main.cpp(154,19): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\Bezier\Bezier\main.cpp(154,16): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\Bezier\Bezier\main.cpp(154,13): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\Bezier\Bezier\main.cpp(158,37): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\Bezier\Bezier\main.cpp(158,24): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\Bezier\Bezier\main.cpp(165,37): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\Bezier\Bezier\main.cpp(165,24): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+C:\Users\YaeSAKURA\source\repos\Bezier\Bezier\main.cpp(173,8): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Bezier.vcxproj -> C:\Users\YaeSAKURA\source\repos\Bezier\x64\Debug\Bezier.exe
