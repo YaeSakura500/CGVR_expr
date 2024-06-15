@@ -56,6 +56,7 @@ void key(unsigned char Button, int x, int y)
 	{
 		B.PopCtrlPoint();
 	}
+	glutPostRedisplay();
 }
 
 void motion(int x, int y) 
@@ -105,7 +106,7 @@ void mouse(int button,int state, int x, int y)
 			isDragging = false;
 		}
 	}
-	
+	glutPostRedisplay();
 }
 
 void resize(int w, int h) 
@@ -128,7 +129,6 @@ void resize(int w, int h)
 void display()
 {
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-	glColor3d(0, 0, 0);//背景色
 	glLineWidth(1);
 	B.DrawCurveWithCtrl(0, 0, 0, RESOLUTION, 1, 0, 0);//画线
 	{//左下角文字：鼠标当前位置
