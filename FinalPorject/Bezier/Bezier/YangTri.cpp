@@ -3,11 +3,11 @@
 int YangTri::GetElem(int times, int j)
 {
 	int d = times - Tri.size();
-	if (d < 0)
+	if (d < 0)//若已存在，直接查表
 	{
 		return Tri[times][j];
 	}
-	else
+	else//不存在则迭代计算并更新数组
 	{
 		for (size_t i = 0; i <= d; i++)
 		{

@@ -26,7 +26,7 @@ public:
 	int Size();//当前控制点的个数
 protected:
 	std::vector<point> Bpoints{
-	};
-	YangTri Tri;
+	};//控制点
+	YangTri Tri;//杨辉三角
 };
 

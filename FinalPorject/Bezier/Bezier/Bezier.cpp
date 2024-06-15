@@ -37,10 +37,10 @@ void Bezier::DrawCurve(double R, double G, double B, int Resoluton)
 	{
 		glPointSize(0.5);
 		glBegin(GL_POINTS);
-		for (size_t i = 0; i < Resoluton; i++)
+		for (size_t i = 0; i < Resoluton; i++)//循环计算每一个点
 		{
 			double y_n = 0, x_n = 0;
-			for (int j = 0; j < times; j++)
+			for (int j = 0; j < times; j++)//通过公式计算各点坐标
 			{
 				y_n += pow(i / (double)Resoluton, (double)j) * pow(1.0 - (i / (double)Resoluton), (double)(times - j - 1)) * Tri.GetElem(times - 1, j) * Bpoints[j].y;
 				x_n += pow(i / (double)Resoluton, (double)j) * pow(1.0 - (i / (double)Resoluton), (double)(times - j - 1)) * Tri.GetElem(times - 1, j) * Bpoints[j].x;
@@ -71,19 +71,23 @@ void Bezier::DrawCtrl(double R, double G, double B)
 	if (Bpoints.size())
 	{
 		glColor3f(R, G, B);
-		glBegin(GL_LINE_STRIP);
-		for (size_t i = 0; i < Bpoints.size(); i++)
-		{
-			glVertex2f(Bpoints[i].x, Bpoints[i].y);
+		{//依次连接各个控制点
+			glBegin(GL_LINE_STRIP);
+			for (size_t i = 0; i < Bpoints.size(); i++)
+			{
+				glVertex2f(Bpoints[i].x, Bpoints[i].y);
+			}
+			glEnd();
 		}
-		glEnd();
-		glPointSize(5);
-		glBegin(GL_POINTS);
-		for (size_t i = 0; i < Bpoints.size(); i++)
-		{
-			glVertex2f(Bpoints[i].x, Bpoints[i].y);
+		{//绘制控制点
+			glPointSize(5);
+			glBegin(GL_POINTS);
+			for (size_t i = 0; i < Bpoints.size(); i++)
+			{
+				glVertex2f(Bpoints[i].x, Bpoints[i].y);
+			}
+			glEnd();
 		}
-		glEnd();
 	}
 }
 
