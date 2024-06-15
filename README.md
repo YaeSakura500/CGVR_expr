@@ -17,3 +17,9 @@ Use Glut ONLY and got the expected result,though we draw a teapot instead of a c
 Expr4:Circle Drawing(DONE)
 
 Glut ONLY still.It seems that we should draw a circle only,REALLY?
+*******
+Final Project:intereactive Bezier Curve(DONE)
+
+Glut ONLY still.
+
+There exists a Bug that while Control Point is more than 34,the location calculate function would got wrong answer.WHY?
